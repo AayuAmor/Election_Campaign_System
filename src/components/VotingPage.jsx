@@ -75,7 +75,7 @@ function VotingPage() {
   const handleCapture = async () => {
     if (!canVote()) {
       const errorMsg =
-        "Voting has ended. Maximum of 100 voters has been reached.";
+        "Voting has ended. Maximum of 3000 voters has been reached.";
       setMessage(errorMsg);
       setMessageType("error");
       speakMessage(errorMsg);
@@ -239,7 +239,7 @@ function VotingPage() {
                   Voting Closed
                 </h3>
                 <p className="text-red-700 mb-4">
-                  The maximum number of 100 voters has been reached. Voting is
+                  The maximum number of 3000 voters has been reached. Voting is
                   now closed.
                 </p>
                 <button
@@ -367,11 +367,11 @@ function VotingPage() {
               Election Rules:
             </h3>
             <ul className="text-sm text-gray-600 space-y-1">
-              <li>• Only 100 voters are allowed to participate</li>
+              <li>• Only 3000 voters are allowed to participate</li>
               <li>• Each voter can vote only once</li>
               <li>• Face recognition ensures one vote per person</li>
               <li>• Choose from 6 qualified candidates</li>
-              <li>• Voting closes when 100 votes are reached</li>
+              <li>• Voting closes when 3000 votes are reached</li>
             </ul>
           </div>
         </div>

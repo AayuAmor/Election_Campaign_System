@@ -125,7 +125,7 @@ function Dashboard() {
             </h3>
           </div>
           <p className="text-sm text-red-700 mt-1">
-            Maximum number of voters (100) has been reached. No more votes can
+            Maximum number of voters (3000) has been reached. No more votes can
             be cast.
           </p>
         </div>
@@ -138,7 +138,7 @@ function Dashboard() {
             <h3 className="text-sm font-medium text-yellow-800">Almost Full</h3>
           </div>
           <p className="text-sm text-yellow-700 mt-1">
-            Only {getRemainingVotes()} votes remaining out of 100 total voters
+            Only {getRemainingVotes()} votes remaining out of 3000 total voters
             allowed.
           </p>
         </div>

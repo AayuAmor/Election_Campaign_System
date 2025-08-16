@@ -50,8 +50,8 @@ const initialState = {
   voters: [],
   faceDescriptors: [],
   votingHistory: [],
-  maxVoters: 100,
-  totalVotersAllowed: 100,
+  maxVoters: 3000,
+  totalVotersAllowed: 3000,
 };
 
 function votingReducer(state, action) {
